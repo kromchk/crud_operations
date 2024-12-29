@@ -2,7 +2,7 @@
 class CRUDOperations {
 	private $mysqli = null;
 	
-	public function __constructor($hmysqli) {
+	public function __construct($hmysqli) {
 		$this->mysqli = $hmysqli;
 	}
 	public function CreateUser(...$args) {
